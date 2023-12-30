@@ -1,0 +1,91 @@
+
+body{
+	width: 100%;
+	min-height: 100vh;
+
+}
+.website-wrapper{
+	width: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0px auto;
+	/* background-color: var(--background-clr); */
+	background-color: #fff;
+    
+}
+th, td{
+    text-align: center;
+}
+
+.landding-div-wrab {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #999;
+
+    background-color: #fff;
+
+}
+
+.landding-div-wrab .landding-top {
+    position: relative;
+    width: 100%;
+    height: 1112px;
+    object-fit: cover;
+}
+
+.landding-div-wrab .middle {
+    position: relative;
+    margin-top: -2px;
+    width: 100%;
+    height: 468px;
+    object-fit: cover;
+}
+
+/* .landding-div-wrab .buttom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 36px;
+    padding: 50px 48px;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    align-items: center;
+    position: relative;
+    object-fit: cover;
+    background-color:#9999;
+} */
+
+.landding-div-wrab .buttom-content {
+    position: relative;
+    width: 100%;
+    height: 332px;
+    padding: 48px 0;
+
+}
+
+.landding-div-wrab .btn-sang {
+    display: flex;
+    justify-content: center;
+
+    padding: 36px 0px;
+    margin: 48px 48px;
+    align-self: stretch;
+    /* width: 100%; */
+    flex: 0 0 auto;
+    background-color: #8101e6;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #8101e65c;
+    align-items: center;
+    position: relative;
+}
+
+.landding-div-wrab .sangdam {
+    position: relative;
+    width: 320px;
+    height: 40px;
+
+    object-fit: cover;
+}
